@@ -1,0 +1,509 @@
+/* .content .main {
+padding: 0 8rem;
+} */
+
+.content .main .account_banner {
+    padding: 0 8rem;
+}
+
+.content .main .account_description {
+    padding: 0 8rem;
+}
+
+.content .main .account_navigation .navigation_buttons {
+    padding: 0 8rem;
+}
+
+.content .main .item {
+    margin: 0 8rem;
+}
+
+.content .main .account_banner {
+    display: flex;
+}
+
+.content .main .account_banner img {
+    border-radius: .6rem;
+}
+
+.content .container .main .account_description {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.content .container .main .account_description .account_text_description .tooltip {
+    left: 25%;
+    bottom: 100%;
+    /* transform: translateY(100%); */
+}
+
+.content .container .main .account_description .icon_container {
+    width: 8rem;
+    height: 8rem;
+    /* margin: 1.5rem 0 1rem 0; */
+    background-color: red;
+}
+
+.content .container .main .account_description .icon_container img {
+    width: 100%;
+    max-height: 100%;
+    border-radius: 100rem;
+}
+
+.content .container .main .account_description .account_text_description {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem 0;
+    /* background-color: red; */
+}
+
+.content .container .main .account_description .account_text_description h1 {
+    font-size: 1.8rem;
+    position: relative;
+}
+
+.content .container .main .account_description .account_text_description p {
+    font-size: .8rem;
+    color: #606060;
+}
+
+.content .container .main .account_description .account_text_description .info_grid .divider.circle {
+    background-color: #606060;
+    width: .15rem;
+    min-width: .15rem;
+    height: .15rem;
+}
+
+.content .container .main .account_description .account_text_description .link {
+    color: rgb(0, 99, 230);
+    font-size: .8rem;
+}
+
+.content .container .main .account_description .account_text_description .btn {
+    background-color: black;
+    color: white;
+    width: 6rem;
+    border-radius: 2rem;
+    padding: .6rem;
+    font-size: .75rem;
+}
+
+.main .account_description #info_grid_more {
+    display: flex;
+    flex-direction: row;
+}
+
+#info_grid_more .icon_container{
+    width: 1.5rem;
+    min-width: 1.5rem;
+    height: 1.5rem;
+    /* margin: inherit; */
+    /* margin-left: .5rem;
+    margin-bottom: 2rem; */
+}
+
+/* .content .container .main .account_description .account_text_description .info_grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    max-width: 50rem;
+} */
+
+.content .main .account_navigation {
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+    position: relative;
+    border-bottom: .1rem solid #dbdbdb;
+}
+
+.content .main .account_navigation .navigation_buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.content .main .account_navigation .navigation_buttons .btn {
+    color: #606060;
+    font-size: .9rem;
+}
+
+.content .main .account_navigation .btn{
+    padding-left: 0;
+    padding-right: 0;
+    color: black;
+    border-bottom: 2px solid transparent;
+    border-radius: 0;
+    /* padding-bottom: 5rem; */
+    /* background-color: rebeccapurple; */
+    /* position: relative; */
+    margin-bottom: -2px;
+}
+
+.content .main .account_navigation .btn#active {
+    border-color: black;
+}
+
+.divider.line {
+    background-color: #dbdbdb;
+    /* position: relative; */
+}
+
+/* .content .main .account_navigation .navigation_buttons .current_page_account {
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+}
+
+.content .main .account_navigation .navigation_buttons .current_page_account .divider.line {
+    background-color: green;
+    position: absolute;
+    width: 2rem;
+    height: .1rem;
+    display: flex;
+    top: 60.44%;
+    right: 76%;
+} */
+
+/* #current_page_account {
+    background-color: black;
+    position: absolute;
+    width: 2.7rem;
+    height: .15rem;
+    display: flex;
+    top: 95%;
+    right: 87%;
+    top: 60.44%;
+    right: 75.35%;
+} */
+
+.content .container .main .account_navigation .navigation_buttons img {
+    width: 1.5rem;
+    border-radius: 100rem;
+}
+
+.main .item .header h2 {
+    font-size: 1.3rem;
+    padding: .7rem 0;
+}
+
+.main .item #for_you {
+    padding-top: 2.5rem;
+}
+
+.content .main .item {
+    padding-bottom: 2.1rem;
+    position: relative;
+    /* background-color: green; */
+}
+
+.content .main .item:not(:last-child) {
+    border-bottom: 1px solid #dbdbdb;
+    /* border-top: 1px solid black; */
+}
+
+.for_you_grid_container, .videos_grid_container {
+    position: relative;
+    /* background-color: yellow; */
+}
+
+.for_you_grid_container > .icon_container {
+    position: absolute;
+    z-index: 2;
+    background-color: black;
+    right: -1.5rem;
+    top: 5rem;
+    transform: translateY(-50%);
+    width: 3rem;
+    height: 3rem;
+}
+
+.videos_grid_container > .icon_container {
+    position: absolute;
+    z-index: 2;
+    background-color: black;
+    min-width: 2rem;
+    width: 2rem;
+    height: 2rem;
+    right: -1rem;
+    top: calc(107px/2);
+    transform: translateY(-50%);
+
+}
+
+.for_you_grid_container > .icon_container img, .videos_grid_container > .icon_container img {
+    /* width: 2.25rem;
+    max-height: 2.25rem; */
+    border-radius: 100rem;
+    width: 90%;
+    max-height: 90%;
+}
+
+/* .content .container .main .item > .btn img {
+    width: 1.5rem;
+    border-radius: 100rem;
+} */
+
+.main .item .for_you_grid .card .card_container img {
+    width: 18rem;
+    min-width: 18rem;
+    border-radius: .6rem;
+    position: relative;
+}
+
+.images_hover {
+    position: absolute;
+    /* width: 1.5rem;
+    min-width: 1.5rem;
+    height: 1.5rem; */
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    top: 5%;
+    z-index: 100;
+    right: 5%;
+    /* border-radius: 100rem; */
+    /* opacity: 1; */
+    opacity: 0;
+}
+
+.main .item .for_you_grid .card .card_container .images_hover img {
+    /* position: absolute; */
+    width: 1.5rem;
+    min-width: 1.5rem;
+    height: 1.5rem;
+    /* top: 5%;
+    right: 5%; */
+    border-radius: 100rem;
+    /* opacity: 0; */
+}
+
+.img_container {
+    position: relative;
+}
+
+.img_container:hover {
+
+    .images_hover {
+        opacity: 1;
+    }
+
+}
+
+#down {
+    top: 25%;
+}
+
+.main .item .videos_grid .card .card_container img {
+    width: 12rem;
+    min-width: 12rem;
+    border-radius: .6rem;
+}
+
+.main .item .videos_grid .card .card_container .title {
+    font-size: .8rem;
+}
+
+.main .item .videos_grid .card .card_container .info_grid .small {
+    font-size: .7rem;
+}
+
+.main .item .for_you_grid .card .card_container, .main .item .videos_grid .card .card_container {
+    gap: .2rem;
+}
+
+.main .item .for_you_grid .card .card_container .title, .main .item .videos_grid .card .card_container .title {
+    margin-top: .5rem;
+}
+
+.main .item .for_you_grid, .main .item .videos_grid {
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    gap: .2rem;
+}
+
+.main .item .for_you_grid .card .card_container, .main .item .videos_grid .card .card_container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* .main .item .for_you_grid .card .card_container .title, .main .item .videos_grid .card .card_container .title {
+    font-size: .9rem;
+} */
+
+.main .item .for_you_grid, .main .item .videos_grid {
+    overflow-x: auto;
+}
+
+@media all and (max-width: 992px) {
+
+    .content .main .account_banner {
+        padding: 0;
+    }
+
+    .content .main .account_description {
+        padding: 0 1.25rem;
+    }
+
+    .content .main .account_navigation .navigation_buttons {
+        padding: 0 1.25rem;
+    }
+
+    .content .main .item {
+        margin: 0;
+    }
+
+    .content .main .account_banner img {
+        border-radius: 0;
+    }
+
+    .content .container .main .account_description {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        gap: 1.5rem;
+    }
+    
+    .content .container .main .account_description #rijk_img_hofman {
+        width: 8rem;
+        height: 8rem;
+        background-color: red;
+        display: none;
+    }
+    
+    .content .container .main .account_description #rijk_img_hofman img {
+        width: 100%;
+        max-height: 100%;
+        border-radius: 100rem;
+        display: none;
+    }
+    
+    .content .main .account_navigation {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        position: relative;
+    }
+
+    .main .item .header h2 {
+        padding-left: 1.25rem;
+    }
+
+    .main .item #for_you {
+        padding-top: 1rem;
+    }
+
+    .for_you_grid_container, .videos_grid_container {
+        width: 100%;
+    }
+
+    .for_you_grid .card > a {
+        width: 100%;
+    }
+
+    .videos_grid .card > a {
+        width: 100%;
+    }
+
+    .for_you_grid_container > .icon_container {
+        position: absolute;
+        z-index: 2;
+        background-color: black;
+        right: -1.5rem;
+        top: 5rem;
+        transform: translateY(-50%);
+        width: 3rem;
+        height: 3rem;
+        display: none;
+    }
+
+    .videos_grid_container > .icon_container {
+        position: absolute;
+        z-index: 2;
+        background-color: black;
+        min-width: 2rem;
+        width: 2rem;
+        height: 2rem;
+        right: -1rem;
+        top: calc(107px/2);
+        transform: translateY(-50%);
+        display: none;
+    }
+
+    .main .item .for_you_grid .card .card_container img {
+        width: 100%;
+        min-width: 18rem;
+        border-radius: 0;
+        position: relative;
+    }
+
+    /* .images_hover {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        top: 5%;
+        z-index: 100;
+        right: 5%;
+        opacity: 0;
+    } */
+    
+    /* .main .item .for_you_grid .card .card_container .images_hover img {
+        width: 1.5rem;
+        min-width: 1.5rem;
+        height: 1.5rem;
+        border-radius: 100rem;
+    } */
+    
+    /* .img_container {
+        position: relative;
+    } */
+    
+    /* .img_container:hover {
+    
+        .images_hover {
+            opacity: 1;
+        }
+    
+    } */
+    
+    /* #down {
+        top: 25%;
+    } */
+
+    .main .item .videos_grid .card .card_container img {
+        width: 100%;
+        min-width: 12rem;
+        border-radius: 0;
+    }
+
+    .main .item .videos_grid .card .card_container .info_grid .small {
+        padding-left: 1.25rem;
+    }
+
+    .main .item .for_you_grid .card .card_container .title, .main .item .videos_grid .card .card_container .title {
+        padding-left: 1.25rem;
+    }
+
+    .main .item .for_you_grid .card .card_container .small, .main .item .videos_grid .card .card_container .small {
+        padding-left: 1.25rem;
+    }
+
+    .main .item .for_you_grid, .main .item .videos_grid {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 2rem;
+    }
+
+    .main .item .for_you_grid .card:nth-child(n+7){
+        display: none;
+    }
+
+    .main .item .videos_grid .card:nth-child(n+7){
+        display: none;
+    }
+
+}
